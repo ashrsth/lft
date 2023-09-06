@@ -5,5 +5,5 @@ Feature: Standard user can login to the website
 
     Scenario: Standard user valid login
         Given I open the website
-        When I enter the correct credentials and submit
+        When I enter the correct credentials and click on submit button
         Then I should see the inventory page
